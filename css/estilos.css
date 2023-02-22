@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.6rem;
+}
+
+header{
+    padding: 0rem 6rem;
+}
+img {
+   max-width: none;
+}
+
+.pau{
+    height: 100%;
+}
+
+h1{
+    font-size: 1.2rem;
+}
+
+html {
+    box-sizing: border-box;
+  
+    box-sizing: inherit;
+  }
+
+  .contenedor{
+    padding: 4rem 5rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+  .entrada a{
+    display: inline-block;
+    background-color: #e6275f;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  @media (min-width: 768px){
+   
+    }
+  
+  @media (min-width: 1140px){
+  
+  }
+
+  @media (min-width:1400px){
+
+    }
+
+.susxd{
+    
+    font-size: medium;
+        display: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+
+footer{
+    font-size: small;
+    color: white;
+    background-color: #27292a;
+}
+
+.rayita{
+    background-color: #e6275f;
+}
+
+.caja{
+    position: relative;
+    display: inline-block;
+}
+
+.texto1{
+    position: absolute;
+    top: 120px;
+    left: 5%;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+}
+
+
+.texto2{
+    position: absolute;
+    top: 10px;
+    left: 5%;
+    font-family: 'Poiret One', cursive;
+    font-size: 60px;
+}
+
+.botoncitosxd{
+    position: absolute;
+    top: 110px;
+    left: 5%;
+    font-family: 'Poiret One', cursive;
+    font-size: 10px;
+}
+
+.xdd{
+    padding: none;
+}
