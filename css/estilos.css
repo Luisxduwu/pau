@@ -41,17 +41,42 @@ html {
     text-transform: uppercase;
   }
 
-  @media (min-width: 768px){
-   
-    }
-  
-  @media (min-width: 1140px){
-  
+  @media (min-widht:1400px){
+    .contenedor{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-flow: row wrap;
   }
 
-  @media (min-width:1400px){
+  .aside{
+    flex:1;
+  }
+  .main{
+    flex: 3;
+  }
+  .main img{
+    display: inline;
+  }
+}
+@media (min-widht: 768px){
+    .contenedor{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-flow: row wrap;
+  }
 
-    }
+  .aside{
+    flex:0 0 calc(50%- 1rem);
+  }
+  .main{
+    flex: 0 0 calc(50%- 1 rem);
+  }
+  .main img{
+    display: none;
+  }
+}
 
 .susxd{
     
@@ -93,10 +118,18 @@ footer{
     font-size: 60px;
 }
 
-.botoncitosxd{
+.boton1{
     position: absolute;
-    top: 110px;
+    top: 190px;
     left: 5%;
+    font-family: 'Poiret One', cursive;
+    font-size: 10px;
+}
+
+.boton2{
+    position: absolute;
+    top: 190px;
+    left: 17%;
     font-family: 'Poiret One', cursive;
     font-size: 10px;
 }
