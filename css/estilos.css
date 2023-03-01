@@ -41,7 +41,7 @@ html {
     text-transform: uppercase;
   }
 
-  @media (min-widht:1400px){
+  @media (min-width:1400px){
     .contenedor{
     display: flex;
     justify-content: space-between;
@@ -59,7 +59,7 @@ html {
     display: inline;
   }
 }
-@media (min-widht: 768px){
+@media(min-width: 768px){
     .contenedor{
     display: flex;
     justify-content: space-between;
@@ -98,12 +98,12 @@ footer{
 
 .caja{
     position: relative;
-    display: inline-block;
+    
 }
 
 .texto1{
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: 5%;
     font-family: 'Poiret One', cursive;
     font-size: 25px;
@@ -129,11 +129,27 @@ footer{
 .boton2{
     position: absolute;
     top: 190px;
-    left: 17%;
+    left: 13%;
     font-family: 'Poiret One', cursive;
     font-size: 10px;
 }
 
 .xdd{
     padding: none;
+}
+
+.section_imagen{
+  background: url(../Actividad_1/bg-seccion1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  color:var(--gris);
+}
+
+.pampu{
+  background: url(../Actividad_1/seccion2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:var(--gris);
 }
